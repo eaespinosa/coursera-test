@@ -28,11 +28,11 @@ h1 {
 	position: absolute;
 	top: 1.75%;
 	right: 2.5%;
-	width: 250px;
+	width: 150px;
 	/*text-align: center;*/
 	color: #efefef;
 	text-transform: lowercase;
-	letter-spacing: .75em;
+	letter-spacing: .25em;
 	font-size: 1.25em;
 	z-index: 1;
 }
