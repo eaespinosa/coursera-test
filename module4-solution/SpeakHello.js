@@ -3,7 +3,7 @@
 
 (function (window) {
   var helloSpeaker = {};
-  helloSpeaker.speak = name; 
+  helloSpeaker.name = names[i]; 
 
 
 // STEP 3: Create an object, called 'helloSpeaker' to which you will attach
@@ -18,10 +18,10 @@
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
     
-    console.log(speakWord + " " + helloSpeaker.speak);
+    console.log(speakWord + " " + helloSpeaker.name);
 }
 
-window.helloSpeaker = helloSpeaker;
+  window.helloSpeaker = helloSpeaker;
 
 })(window);
 // STEP 5: Expose the 'helloSpeaker' object to the global scope. Name it
