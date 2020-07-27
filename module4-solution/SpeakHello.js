@@ -3,7 +3,6 @@
 
 (function (window) {
   var helloSpeaker = {};
-  helloSpeaker.speak = name;
 
 // STEP 3: Create an object, called 'helloSpeaker' to which you will attach
 // the "speak" method and which you will expose to the global context
